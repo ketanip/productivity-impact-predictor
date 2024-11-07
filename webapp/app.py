@@ -4,11 +4,11 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-unique_values_file = open("output\model_unique_values.pkl", "rb")
+unique_values_file = open("output/model_unique_values.pkl", "rb")
 model_unique_values = pickle.load(unique_values_file)
 unique_values_file.close()
 
-model_pipeline_file = open("output\model_pipeline.pkl", "rb")
+model_pipeline_file = open("output/model_pipeline.pkl", "rb")
 model_pipeline = pickle.load(model_pipeline_file)
 model_pipeline_file.close()
 
