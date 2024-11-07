@@ -64,8 +64,6 @@ Now let us see how reflect on you social media usage. We suggest you use **Digit
 )
 
 
-total_time_spent = st.number_input("**Time spent on social media each day (in minutes)**", min_value=1, step=1)
-
 smd1, smd2 = st.columns(2)
 
 with smd1:
@@ -93,10 +91,9 @@ with dd_col1:
     device_type = st.selectbox("**Device**", model_unique_values["device_type"])
 
 with dd_col2:
-    os = st.selectbox("**Operating System**", model_unique_values["os"])
-connection_type = st.selectbox(
-    "**Internet connection type**", model_unique_values["connection_type"]
-)
+    connection_type = st.selectbox(
+        "**Internet connection type**", model_unique_values["connection_type"]
+    )
 
 # ------------------
 # Other Details
