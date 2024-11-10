@@ -1,7 +1,3 @@
-Here's the updated README with an added "Screenshots" section to showcase the UI:
-
----
-
 # 📉 Productivity Loss Predictor Due to Social Media Use
 
 Predict productivity loss by analyzing social media usage patterns! This project explores how social media usage impacts productivity and provides a predictive model to assess productivity loss. It combines data exploration, preprocessing, model training, and an interactive web app interface for a smooth user experience.
